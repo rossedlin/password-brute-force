@@ -1,6 +1,5 @@
 import csv
 
-
 def import_csv_to_array(file_path):
     with open(file_path, mode='r') as file:
         # reading the CSV file
@@ -29,9 +28,6 @@ a = import_csv_to_array('csv/Aword.csv')
 f = import_csv_to_array('csv/Fword.csv')
 h = import_csv_to_array('csv/Hword.csv')
 m = import_csv_to_array('csv/Mword.csv')
-
-# print(a)
-# exit()
 
 password = 'hedgehog_finite_minus'
 words = a + f + h + m
