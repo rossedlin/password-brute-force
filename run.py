@@ -1,6 +1,7 @@
 import csv
 from itertools import product
 
+
 def import_csv_to_array(file_path):
     with open(file_path, 'r') as file:
         reader = csv.reader(file)
